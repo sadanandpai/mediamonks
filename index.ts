@@ -41,7 +41,10 @@ function onPageMount() {
     const div: HTMLElement = document.createElement("div");
     div.classList.add("page-info");
     div.classList.add("info-" + i);
-    div.innerHTML = pageData[i - 1];
+    if (pageData[i - 1][1] === "right") {
+      div.classList.add("right");
+    }
+    div.innerHTML = pageData[i - 1][0];
     fragment.appendChild(div);
   }
   pageInfo.appendChild(fragment);
