@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "Klavika Rg";
+  src: url("./assets/font/klavika-regular-webfont.woff");
+}
