@@ -1,2 +1,12 @@
-# mediamonks
-Welcome page of Media Monks
+# Media Monks WebPage
+
+### Technolgoies
+- HTML
+- SASS
+- TypeScript
+
+### Bundler
+- Parcel
+
+#### Output folder
+- Dist
